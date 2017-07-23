@@ -108,6 +108,6 @@ const config = createConfig([
       new webpack.optimize.UglifyJsPlugin({ compress: { warnings: false } }),
     ]),
   ]),
-])
+]);
 
-module.exports = config
+module.exports = config;

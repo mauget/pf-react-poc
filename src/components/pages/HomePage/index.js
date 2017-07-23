@@ -1,4 +1,3 @@
-// https://github.com/diegohaz/arc/wiki/Atomic-Design
 import React from 'react';
 
 const HomePage = () => {
@@ -6,7 +5,7 @@ const HomePage = () => {
 
     <div className="row">
       <div className="col-sm-12">
-        <h5 style={{width: "100%", "text-align": "center"}}>Section 1</h5>
+        <h5 style={{width: "100%", textAlign: "center"}}>Section 1</h5>
       </div>
     </div>
 
@@ -24,7 +23,7 @@ const HomePage = () => {
 
     <div className="row">
       <div className="col-sm-12">
-        <input style={{width: "100%"}} value="Elwood P. Suggins"/>
+        <input style={{width: "100%"}} defaultValue="Elwood P. Suggins"/>
       </div>
     </div>
 
@@ -36,13 +35,13 @@ const HomePage = () => {
 
     <div className="row">
       <div className="col-sm-12">
-        <input style={{width: "100%"}} value="Dogpatch"/>
+        <input style={{width: "100%"}} defaultValue="Dogpatch"/>
       </div>
     </div>
 
     <div className="row">
       <div className="col-sm-12">
-        <h5 style={{width: "100%", "text-align": "center"}}>Section 2</h5>
+        <h5 style={{width: "100%", textAlign: "center"}}>Section 2</h5>
       </div>
     </div>
 
@@ -54,7 +53,7 @@ const HomePage = () => {
 
     <div className="row">
       <div className="col-sm-12">
-        <input style={{width: "100%"}} value="Coffee tasting"/>
+        <input style={{width: "100%"}} defaultValue="Coffee tasting"/>
       </div>
     </div>
 
@@ -66,13 +65,13 @@ const HomePage = () => {
 
     <div className="row">
       <div className="col-sm-12">
-        <input style={{width: "100%"}} value="Meeting attendee"/>
+        <input style={{width: "100%"}} defaultValue="Meeting attendee"/>
       </div>
     </div>
 
     <div className="row">
       <div className="col-sm-12">
-        <h5 style={{width: "100%", "text-align": "center"}}>Section 3</h5>
+        <h5 style={{width: "100%", textAlign: "center"}}>Section 3</h5>
       </div>
     </div>
 
@@ -104,7 +103,7 @@ const HomePage = () => {
 
     <div className="row">
       <div className="col-sm-12">
-        <input style={{width: "100%"}} value="Coding"/>
+        <input style={{width: "100%"}} defaultValue="Coding"/>
       </div>
     </div>
 
