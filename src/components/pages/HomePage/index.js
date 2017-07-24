@@ -1,4 +1,5 @@
 import React from 'react';
+import Page from 'components/controls/page';
 import Section from 'components/controls/section';
 import Heading3 from 'components/controls/heading3';
 import TextInput from 'components/controls/textinput';
@@ -7,8 +8,7 @@ import MultilineTextInput from 'components/controls/multilineinput';
 const HomePage = () => {
 
   const
-    page = <div className="container" style={{border: "solid red 1px"}}>
-
+    page = <Page>
       <Section id="section1" title="Section One">
         <Heading3 text="Name"/>
         <TextInput text="Elwood P. Suggins"/>
@@ -35,9 +35,7 @@ const HomePage = () => {
         <TextInput text="Coding"/>
       </Section>
 
-      <Section id="sectionEnd" title=""/>
-
-    </div>;
+    </Page>;
 
   return page;
 
