@@ -13,7 +13,7 @@ injectGlobal`
   body {
     margin: 0;
   }
-`
+`;
 
 const App = () => {
   return (
@@ -25,4 +25,4 @@ const App = () => {
   )
 };
 
-export default App
+export default App;

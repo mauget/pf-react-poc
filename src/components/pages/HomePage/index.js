@@ -1,13 +1,12 @@
+
 import React from 'react';
+import SectionControl from 'components/controls/section';
 
 const HomePage = () => {
+
   return <div className="container" style={{border: "solid red 1px"}}>
 
-    <div className="row">
-      <div className="col-sm-12">
-        <h5 style={{width: "100%", textAlign: "center"}}>Section 1</h5>
-      </div>
-    </div>
+    <SectionControl id="sectionTest" title="Section One"/>
 
     <div className="row">
       <div className="col-sm-12">
@@ -15,9 +14,10 @@ const HomePage = () => {
       </div>
     </div>
 
+
     <div className="row">
       <div className="col-sm-12">
-        <h4 style={{width: "100%"}}>Name</h4>
+        <h3 style={{width: "100%"}}>Name</h3>
       </div>
     </div>
 
@@ -39,11 +39,7 @@ const HomePage = () => {
       </div>
     </div>
 
-    <div className="row">
-      <div className="col-sm-12">
-        <h5 style={{width: "100%", textAlign: "center"}}>Section 2</h5>
-      </div>
-    </div>
+    <SectionControl id="sectionTest" title="Section Two"/>
 
     <div className="row">
       <div className="col-sm-12">
@@ -69,11 +65,8 @@ const HomePage = () => {
       </div>
     </div>
 
-    <div className="row">
-      <div className="col-sm-12">
-        <h5 style={{width: "100%", textAlign: "center"}}>Section 3</h5>
-      </div>
-    </div>
+
+    <SectionControl id="sectionTest" title="Section Three"/>
 
 
     <div className="row">
@@ -116,4 +109,4 @@ const HomePage = () => {
 
 };
 
-export default HomePage
+export default HomePage;
