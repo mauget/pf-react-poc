@@ -4,7 +4,7 @@ import React, {Component} from 'react';
 class Page extends Component {
 
   constructor(props) {
-    super(props || {});
+    super(props);
     this.title = props.title;
     this.id = props.id;
 

@@ -4,7 +4,7 @@ import React, {Component} from 'react';
 class MultilineTextInput extends Component {
 
   constructor(props) {
-    super(props || {});
+    super(props);
     this.text = props.text;
     this.rows = props.rows;
     this.cols = props.cols;
@@ -16,7 +16,7 @@ class MultilineTextInput extends Component {
 
     return <div className="row">
       <div className="col-sm-12">
-        <texarea style={{width: "100%"}} rows={this.rows} cols={this.cols}>
+        <texarea style={{width: "100%"}} rows={this.rows} cols={this.cols} className="">
           <span>{this.text}</span>
       </texarea>
       </div>

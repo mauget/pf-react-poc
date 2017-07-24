@@ -5,7 +5,7 @@ import React, {Component} from 'react';
 class Heading3 extends Component {
 
   constructor(props) {
-    super(props || {});
+    super(props);
     this.text = props.text;
 
     // Declare any event handlers here

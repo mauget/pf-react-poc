@@ -4,6 +4,7 @@ import Section from 'components/controls/section';
 import Heading3 from 'components/controls/heading3';
 import TextInput from 'components/controls/textinput';
 import MultilineTextInput from 'components/controls/multilineinput';
+import Button from 'components/controls/Button';
 
 const HomePage = () => {
 
@@ -14,6 +15,7 @@ const HomePage = () => {
         <TextInput text="Elwood P. Suggins"/>
         <Heading3 text="City"/>
         <TextInput text="Dogpatch"/>
+        <Button text="Update" />
       </Section>
 
       <Section id="section2" title="Section Two">
@@ -30,7 +32,7 @@ const HomePage = () => {
                 To  be or not to be, that is the ... gazornanplatt.
                 To  be or not to be, that is the ... gazornanplatt.
                 To  be or not to be, that is the ... gazornanplatt.
-                To  be or not to be, that is the ... gazornanplatt."></MultilineTextInput>
+                To  be or not to be, that is the ... gazornanplatt."/>
         <Heading3 text="Favorite Thing"/>
         <TextInput text="Coding"/>
       </Section>
