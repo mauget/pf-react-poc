@@ -1,6 +1,7 @@
 
 
 import React, {Component} from 'react';
+import Foundation from 'react-foundation';
 
 class Button extends Component {
 
