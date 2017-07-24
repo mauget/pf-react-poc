@@ -14,7 +14,7 @@ class Page extends Component {
   render() {
 
     return <div id={this.id} className="container"
-                style={{border: "solid red 1px", paddingBottom: "1em"}}>{this.props.children}</div>;
+                style={{border: "solid red 1px", borderRadius: "16px", paddingBottom: "1em"}}>{this.props.children}</div>;
 
   }
 
