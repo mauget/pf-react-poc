@@ -1,12 +1,12 @@
 
+
 import React, {Component} from 'react';
 
-class Section extends Component {
+class Heading2 extends Component {
 
   constructor(props) {
     super(props || {});
-    this.title = props.title;
-    this.id = props.id;
+    this.text = props.text;
 
     // Declare any event handlers here
   }
@@ -15,8 +15,7 @@ class Section extends Component {
 
     return <div className="row">
       <div className="col-sm-12">
-        <h3 style={{width: "100%", textAlign: "center"}}>{this.title}</h3>
-        <div id={this.id}>{this.props.children}</div>
+        <h2 style={{width: "100%", textAlign: "left"}}>{this.text}</h2>
       </div>
     </div>;
 
@@ -24,4 +23,4 @@ class Section extends Component {
 
 }
 
-export default Section;
+export default Heading2;

@@ -1,111 +1,45 @@
-
 import React from 'react';
-import SectionControl from 'components/controls/section';
+import Section from 'components/controls/section';
+import Heading3 from 'components/controls/heading3';
+import TextInput from 'components/controls/textinput';
+import MultilineTextInput from 'components/controls/multilineinput';
 
 const HomePage = () => {
 
-  return <div className="container" style={{border: "solid red 1px"}}>
+  const
+    page = <div className="container" style={{border: "solid red 1px"}}>
 
-    <SectionControl id="sectionTest" title="Section One"/>
+      <Section id="section1" title="Section One">
+        <Heading3 text="Name"/>
+        <TextInput text="Elwood P. Suggins"/>
+        <Heading3 text="City"/>
+        <TextInput text="Dogpatch"/>
+      </Section>
 
-    <div className="row">
-      <div className="col-sm-12">
-        <div id="mountPoint"></div>
-      </div>
-    </div>
+      <Section id="section2" title="Section Two">
+        <Heading3 text="Hobby"/>
+        <TextInput text="Coffee tasting"/>
+        <Heading3 text="Occupation"/>
+        <TextInput text="Meeting attendee"/>
+      </Section>
 
+      <Section id="section3" title="Section Three">
+        <Heading3 text="Notes"/>
+        <MultilineTextInput text="To  be or not to be, that is the ... gazornanplatt.
+                To  be or not to be, that is the ... gazornanplatt.
+                To  be or not to be, that is the ... gazornanplatt.
+                To  be or not to be, that is the ... gazornanplatt.
+                To  be or not to be, that is the ... gazornanplatt.
+                To  be or not to be, that is the ... gazornanplatt."></MultilineTextInput>
+        <Heading3 text="Favorite Thing"/>
+        <TextInput text="Coding"/>
+      </Section>
 
-    <div className="row">
-      <div className="col-sm-12">
-        <h3 style={{width: "100%"}}>Name</h3>
-      </div>
-    </div>
+      <Section id="sectionEnd" title=""/>
 
-    <div className="row">
-      <div className="col-sm-12">
-        <input style={{width: "100%"}} defaultValue="Elwood P. Suggins"/>
-      </div>
-    </div>
+    </div>;
 
-    <div className="row">
-      <div className="col-sm-12">
-        <h4 style={{width: "100%"}}>City</h4>
-      </div>
-    </div>
-
-    <div className="row">
-      <div className="col-sm-12">
-        <input style={{width: "100%"}} defaultValue="Dogpatch"/>
-      </div>
-    </div>
-
-    <SectionControl id="sectionTest" title="Section Two"/>
-
-    <div className="row">
-      <div className="col-sm-12">
-        <h4 style={{width: "100%"}}>Hobby</h4>
-      </div>
-    </div>
-
-    <div className="row">
-      <div className="col-sm-12">
-        <input style={{width: "100%"}} defaultValue="Coffee tasting"/>
-      </div>
-    </div>
-
-    <div className="row">
-      <div className="col-sm-12">
-        <h4 style={{width: "100%"}}>Occupation</h4>
-      </div>
-    </div>
-
-    <div className="row">
-      <div className="col-sm-12">
-        <input style={{width: "100%"}} defaultValue="Meeting attendee"/>
-      </div>
-    </div>
-
-
-    <SectionControl id="sectionTest" title="Section Three"/>
-
-
-    <div className="row">
-      <div className="col-sm-12">
-        <h4 style={{width: "100%"}}>Notes</h4>
-      </div>
-    </div>
-
-    <div className="row">
-      <div className="col-sm-12">
-        <texarea style={{width: "100%"}} rows="4" cols="50">
-          <span>To  be or not to be, that is the ... gazornanplatt.
-          To  be or not to be, that is the ... gazornanplatt.
-          To  be or not to be, that is the ... gazornanplatt.
-          To  be or not to be, that is the ... gazornanplatt.
-          To  be or not to be, that is the ... gazornanplatt.
-          To  be or not to be, that is the ... gazornanplatt. </span>
-        </texarea>
-      </div>
-    </div>
-
-    <div className="row">
-      <div className="col-sm-12">
-        <h4 style={{width: "100%"}}>Favorite Thing</h4>
-      </div>
-    </div>
-
-    <div className="row">
-      <div className="col-sm-12">
-        <input style={{width: "100%"}} defaultValue="Coding"/>
-      </div>
-    </div>
-
-    <div className="row">
-      <div className="col-sm-12">&nbsp;</div>
-    </div>
-
-
-  </div>
+  return page;
 
 };
 
