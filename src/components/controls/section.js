@@ -15,7 +15,7 @@ class Section extends Component {
 
     return <div className="row">
       <div className="col-sm-12">
-        <h4 style={{width: "100%"}}>{this.title}</h4>
+        <h4 style={{width: "100%", textAlign: "center"}}>{this.title}</h4>
         <div id={this.id}>{this.props.children}</div>
       </div>
     </div>;
