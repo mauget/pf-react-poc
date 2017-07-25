@@ -1,7 +1,7 @@
 ## React POC Project
 This project is intended to be used to evaluate various React 
 component toolkits for use with mobile web apps.  It is based on
-a starter project based on [https://github.com/diegohaz/arc]() 
+a starter project based on [https://github.com/diegohaz/arc](https://github.com/diegohaz/arc) 
 
 ### Getting started
 
