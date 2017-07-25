@@ -21,7 +21,8 @@ class Button extends Component {
 
     return <div className="row">
       <div className="col-sm-12">
-        <button style={{width: "100%", border: "solid 1px green", borderRadius: "4px", marginTop: "10px", marginBottom: "10px"}}
+        <button style={{width: "100%", border: "solid 1px green",
+                        borderRadius: "4px", marginTop: "10px", marginBottom: "10px"}}
                 className="form-control"
                 onClick={this.clickHandler}>{this.text}</button>
       </div>
