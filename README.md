@@ -14,8 +14,8 @@ A live-reload server starts. Access the current POC demo at
 
 [http://localhost:3000]() — Development live-update server
 
-.
-![Rendered mobile POC page](url "Rendered mobile POC page")
+
+![Rendered mobile POC page](https://github.com/mauget/pf-react-poc/blob/master/public/iphone6.png "Rendered mobile POC page")
 
 
 ### Components
