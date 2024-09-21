@@ -1925,10 +1925,10 @@ bootstrap-webpack@0.0.6:
   resolved "https://registry.yarnpkg.com/bootstrap-webpack/-/bootstrap-webpack-0.0.6.tgz#77c2c20cc287d06a5dc7af68947aec3374627d28"
   integrity sha1-d8LCDMKH0Gpdx69olHrsM3RifSg=
 
-bootstrap@^4.3.1:
-  version "4.3.1"
-  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.3.1.tgz#280ca8f610504d99d7b6b4bfc4b68cec601704ac"
-  integrity sha512-rXqOmH1VilAt2DyPzluTi2blhk17bO7ef+zLLPlWvG494pDxcM234pJ8wTc/6R40UWizAIIMgxjvxZg5kmsbag==
+bootstrap@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-5.0.0.tgz#97635ac0e0d6cb466700ebf0fd266bfabf352ed2"
+  integrity sha512-tmhPET9B9qCl8dCofvHeiIhi49iBt0EehmIsziZib65k1erBW1rHhj2s/2JsuQh5Pq+xz2E9bEbzp9B7xHG+VA==
 
 bowser@^1.0.0, bowser@^1.7.3:
   version "1.9.4"
